@@ -1,0 +1,93 @@
+#header {
+  background-color: bisque;
+}
+#header .boxes {
+  position: relative;
+}
+#header .boxes .logo {
+  width: 24%;
+}
+#header .boxes .logo img {
+  width: 150px;
+}
+#header .boxes .menu {
+  width: 65%;
+}
+#header .boxes .menu ul li a {
+  text-decoration: none;
+  padding: 25px 20px;
+  display: inline-block;
+  color: black;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+#header .boxes .menu ul li i {
+  vertical-align: -1px;
+  color: orange;
+}
+#header .boxes .menu ul li.demos:hover .big-dropped {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+#header .boxes .menu ul li.demos .big-dropped {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  justify-content: space-around;
+  background-color: gray;
+  transform: translateY(20px);
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s ease-in-out;
+}
+#header .boxes .menu ul li.demos .big-dropped ul li a {
+  padding: 15px;
+  color: orange;
+}
+#header .boxes .menu ul li.demos .big-dropped .dropped-2 img {
+  width: 100%;
+  height: 100%;
+}
+#header .boxes .box-ico {
+  width: 7%;
+}
+#header .boxes .box-ico ul li a {
+  text-decoration: none;
+  color: black;
+  padding-left: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 500;
+}
+#header .boxes .box-ico ul li i {
+  color: orange;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+.list-unstyled {
+  list-style: none;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}/*# sourceMappingURL=style.css.map */
